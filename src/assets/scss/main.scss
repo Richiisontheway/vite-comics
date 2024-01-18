@@ -20,9 +20,11 @@
 
 .heroes-background{
     height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(/vue-dc-comics-1/img/footer-bg.jpg);
     img{
-        
+        height: 150%;
     }
 }
 main{

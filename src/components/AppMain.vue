@@ -95,7 +95,7 @@ export default {
                         <li>Adverserting</li>
                     </ul>
                 </div>
-                <div>
+                <div class="d-flex align-items-center overflow-hidden ms-5">
 
                     <img src="/vue-dc-comics-1\img\dc-logo-bg.png" alt="">
                 
