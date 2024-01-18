@@ -1,7 +1,19 @@
 @use "partials/variables.scss" as *;
 @use "partials/mixins.scss" as *;
 
-h1 {
-    text-align: center;
-    color: lightcoral;
+.comix--blueSection{
+    height: $container-space;
+    background-color: #0282F9;
+}
+
+.container-img{
+    height: 50px;
+
+    img{
+        height: 100%;
+    }
+    span{
+        @include text-prop;
+        font-weight: 500;
+    }
 }

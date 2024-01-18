@@ -1,0 +1,6 @@
+@use "../partials/variables.scss" as *;
+
+@mixin text-prop{
+    color: $color-text;
+    font-weight: $weight-text;
+}
