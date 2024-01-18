@@ -47,8 +47,61 @@ export default {
                 </div>
             </div>
         </section>
-        <section class="heroes-background">
-            
+        <section class="heroes-background d-flex ">
+            <div class="container d-flex">
+                <div class="list-container">
+                    <div class="list">
+                        <h4>DC COMICS</h4>
+                        <ul>
+                            <li>Character</li>
+                            <li>Comics</li>
+                            <li>Movies</li>
+                            <li>TV</li>
+                            <li>Games</li>
+                            <li>Videos</li>
+                            <li>News</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Shop</h4>
+                        <ul>
+                            <li>Shop DC</li>
+                            <li>Shop DC Collectibles</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="list-container">
+                    <h4>DC</h4>
+                    <ul>
+                        <li>Terms of use</li>
+                        <li>Privacy Policy</li>
+                        <li>Add Choise</li>
+                        <li>Adverserting</li>
+                        <li>Jobs</li>
+                        <li>Subscrition</li>
+                        <li>Talent Workshop</li>
+                        <li>CPSC</li>
+                        <li>Rating</li>
+                        <li>Shop Help</li>
+                        <li>Conctacs us</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4>Sites</h4>
+                    <ul>
+                        <li>Terms of use</li>
+                        <li>Privacy Policy</li>
+                        <li>Add Choise</li>
+                        <li>Adverserting</li>
+                    </ul>
+                </div>
+                <div>
+
+                    <img src="/vue-dc-comics-1\img\dc-logo-bg.png" alt="">
+                
+                </div>
+            </div>
+
         </section>
     </main>
 </template>

@@ -17,3 +17,32 @@
         font-weight: 500;
     }
 }
+
+.heroes-background{
+    height: 40vh;
+    background-image: url(/vue-dc-comics-1/img/footer-bg.jpg);
+    img{
+        
+    }
+}
+main{
+    .list-container{
+        font-size: small;
+        margin-right: 20px;
+        h4{
+            color:$color-text;
+        }
+        ul{
+
+            list-style: none;
+            padding-left: 0;
+            li{
+                color:grey;
+                
+            }
+        }
+    }
+}
+.list{
+    height: 70%;
+}
