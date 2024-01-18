@@ -1,0 +1,29 @@
+@use "partials/variables.scss" as *;
+@use "partials/mixins.scss" as *;
+
+footer{
+    background-color: #303030;
+    height: $container-space;
+    a{
+        text-decoration: none;
+        padding: 15px 30px;
+        border: 1px solid blue;
+        @include text-prop
+    }
+    .blue{
+        color: blue;
+        font-weight: $weight-text;
+        display: flex;
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                height: 20px;
+                margin: 0 5px;
+                img{
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
