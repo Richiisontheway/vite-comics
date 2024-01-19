@@ -34,6 +34,7 @@ export default {
 
 <template>
     <main>
+        
         <section class="comix--blueSection d-flex ">
             <div class="container d-flex align-self-center justify-content-center">
                 <div class="container-img"
